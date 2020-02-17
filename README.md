@@ -1,1 +1,1 @@
-# Dcon backend
+# NodeJS, Express, MongoDB starter kit
