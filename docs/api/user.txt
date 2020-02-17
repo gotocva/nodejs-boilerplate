@@ -1,0 +1,28 @@
+
+
+http://127.0.0.1:7070/api/v1/user
+
+POST 
+
+{
+	"name" : "sivabharathy",
+	"email" : "gotocva@gmail.com"
+}
+
+sample response 
+
+{
+    "HTTP_STATUS_CODE": 200,
+    "status": true,
+    "message": "Registered successfully",
+    "body": {
+        "is_email_verified": 0,
+        "status": 1,
+        "_id": "5e4a3b80650d1464fbe2d3e5",
+        "name": "sivabharathy",
+        "email": "gotocva@gmail.com",
+        "token": "08473ca580b5a83effb2d4094efe883827815f42d11a10fc3afddf1a592ee0",
+        "otp": 8204,
+        "created_at": "2020-02-17T07:06:40.792Z"
+    }
+}
