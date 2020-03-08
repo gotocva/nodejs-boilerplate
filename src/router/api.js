@@ -1,5 +1,5 @@
 import { router } from "../bootstrap/index";
-import { UserController } from "../controller/UserController";
+import * as UserController from "../controller/UserController";
 
 import { auth } from "../middleware/api";
 

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
-    "start": "npm run build & node lib/index.js",
+    "start": "sh scripts/start.sh",
     "migrate": "node lib/migrations/index.js",
     "docs": "./node_modules/.bin/jsdoc -c jsdoc.json",
     "nodemon": "nodemon lib/index.js"

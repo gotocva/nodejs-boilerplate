@@ -1,5 +1,5 @@
 
-import { UserDao } from "../dao/index";
+import * as UserDao from "../dao/UserDao";
 import { encrypt, decrypt } from "../utils/crypto";
 
 export const store = async (req,res) => {
